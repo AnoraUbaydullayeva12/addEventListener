@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+    font-family: "Roboto", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 300px;
+}
+
+.container-1,
+.showNumber,
+.choiseColor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+
+#number {
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+  color: #000000;
+  border-radius: 20px;
+}
+.button {
+  background-color: #2a2a2a;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #fff;
+}
+.showNumber{
+    background-color: #2a2a2a;
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 290px;
+}
+.btn{
+    background-color: #2a2a2a;
+    border: none;
+    color: #fff;
+
+}
+h2{
+    color: #fff;
+}
+
+.mainNumber{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.changeColor{
+  font-size: 2rem;
+    color: #fff;
+}
